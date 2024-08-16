@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade</title>
+</head>
+<body>
+
+ 
+    <div class="container">
+
+        <h1>Cadastro</h1>
+        <form id="formCad">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <div id="infoSection" class="hidden">
+            <h2>Cadastros salvos</h2>
+            <div id="infoContainer"></div>
+            <button id="btnExcluirTodos">Excluir Tudo</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

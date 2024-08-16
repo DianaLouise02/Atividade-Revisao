@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: plum;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid pink;
+    border-radius: 1px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: pink;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: lavender;
+    color:purple;
+}
+
+#infoSection {
+    margin-top: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+#btnExcluirTodos {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#btnExcluirTodos:hover {
+    background-color: #c82333;
+}
